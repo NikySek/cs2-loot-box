@@ -25,7 +25,7 @@ const GAMES = [
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="h-screen flex flex-col">
       <Navbar />
       <div className="flex flex-1 overflow-hidden">
         <ChatSidebar />
@@ -43,7 +43,7 @@ const Index = () => {
 
           <div>
             <h3 className="text-lg font-bold text-foreground mb-3">Our Games</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
               {GAMES.map((game) => (
                 <GameCard key={game.title} {...game} />
               ))}
