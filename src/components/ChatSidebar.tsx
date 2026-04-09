@@ -20,7 +20,7 @@ const ChatSidebar = () => {
   const [message, setMessage] = useState("");
 
   return (
-    <aside className="w-64 bg-sidebar border-r border-border flex flex-col h-full hidden lg:flex">
+    <aside className="w-72 bg-sidebar border-r border-border flex flex-col h-full hidden lg:flex">
       <div className="flex-1 overflow-y-auto p-3 space-y-2">
         {MOCK_MESSAGES.map((m, i) => (
           <div key={i} className="text-sm">
