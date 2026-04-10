@@ -30,6 +30,8 @@ const Index = () => {
       <div className="flex flex-1 overflow-hidden">
         <ChatSidebar />
         <main className="flex-1 overflow-y-auto p-4 md:p-6 space-y-6">
+          <LiveDrops />
+
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-bold text-foreground">Welcome back!</h2>
             <div className="flex items-center gap-1 text-sm text-gaming-green">
@@ -38,7 +40,6 @@ const Index = () => {
             </div>
           </div>
 
-          <LiveDrops />
           <HeroBanner />
 
           <div>
