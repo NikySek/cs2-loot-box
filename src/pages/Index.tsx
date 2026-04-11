@@ -15,7 +15,7 @@ import roulette from "@/assets/roulette.jpg";
 
 const GAMES = [
   { title: "Crate Battles", image: crateBattles, hot: true },
-  { title: "Case Opening", image: caseOpening },
+  { title: "Case Opening", image: caseOpening, link: "/cases" },
   { title: "Wheel of Fortune", image: wheelFortune },
   { title: "Coinflip", image: coinflip },
   { title: "Upgrader", image: upgrader },
